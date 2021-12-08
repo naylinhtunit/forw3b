@@ -45,7 +45,7 @@ breadcrumb Section
                                 <div class="card-columns">
                                     @foreach($posts as $post)
                                         <div class="card">
-                                            <img class="card-img-top w-100" src="{{ URL::to('/') }}/public/img/blog/post/{{ $post->image }}" alt="{{$post->title}}">
+                                            <img class="card-img-top w-100" src="{{ URL::to('/') }}/img/blog/post/{{ $post->image }}" alt="{{$post->title}}">
                                             <div class="card-body">
                                                 <p class="card-text"><small class="text-muted">{{ date('D M Y', strtotime($post->created_at)) }}</small></p>
                                                 <h5 class="card-title">{{$post->title}}</h5>
@@ -93,7 +93,7 @@ breadcrumb Section
                                 </div>
                                 
                                 <div class="col-5">
-                                    <img class="img-fluid" src="{{ URL::to('/') }}/public/img/blog/demo/{{ $last->image }}">
+                                    <img class="img-fluid" src="{{ URL::to('/') }}/img/blog/demo/{{ $last->image }}">
                                 </div>
                             </div>
                         </article>
@@ -116,7 +116,7 @@ breadcrumb Section
         <div class="container">
             <div class="row">
                 <div class="my-ads">
-                    <img src="{{ URL::to('/') }}/public/img/ads/forw3b_ads.png" alt="forw3b_ads">
+                    <img src="{{ URL::to('/') }}/img/ads/forw3b_ads.png" alt="forw3b_ads">
                 </div>
             </div>
         </div>

@@ -62,7 +62,7 @@
                                         <td>
                                             <ul class="list-inline">
                                                 <li>
-                                                    <img src="{{ URL::to('/') }}/public/img/demo/logo/{{ $logo->image }}" class="avatar" alt="Avatar" />
+                                                    <img src="{{ URL::to('/') }}/img/demo/logo/{{ $logo->image }}" class="avatar" alt="Avatar" />
                                                 </li>
                                             </ul>
                                         </td>
@@ -126,7 +126,7 @@
                                         <td>
                                             <ul class="list-inline">
                                                 <li>
-                                                    <img src="{{ URL::to('/') }}/public/img/demo/web/{{ $web->image }}" class="avatar" />
+                                                    <img src="{{ URL::to('/') }}/img/demo/web/{{ $web->image }}" class="avatar" />
                                                 </li>
                                             </ul>
                                         </td>
@@ -188,7 +188,7 @@
                                         <td>
                                             <ul class="list-inline">
                                                 <li>
-                                                    <img src="{{ URL::to('/') }}/public/img/blog/post/{{ $post->image }}" class="avatar" />
+                                                    <img src="{{ URL::to('/') }}/img/blog/post/{{ $post->image }}" class="avatar" />
                                                 </li>
                                             </ul>
                                         </td>

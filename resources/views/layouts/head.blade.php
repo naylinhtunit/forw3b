@@ -12,18 +12,18 @@
     <meta name="author" content="Forw3b">
     <meta name="google-site-verification" content="bXmHXRmSrfqnGjkGvM52LDIoVMW0sa0TiWqOv5PplWE" />
     
-    <meta property="og:url" content="https://{{ $_SERVER['HTTP_HOST'] }}<?php echo $_SERVER["REQUEST_URI"]; ?>" />
+    <meta property="og:url" content="http://{{ $_SERVER['HTTP_HOST'] }}<?php echo $_SERVER["REQUEST_URI"]; ?>" />
     <meta property="og:title" content="{{ config('app.name', 'Forw3b') }}">
     <meta property="og:description" content="{{ Lang::get('seo_des', array(), Helper::lang()) }}" />
-    <meta property="og:image" content="{{asset('public/img/logo/forw3b_logo.png')}}" />
+    <meta property="og:image" content="{{asset('img/logo/forw3b_logo.png')}}" />
     <meta property="og:type" content="website" />
     
     <meta name="geo.position" content="16.8033154;96.1840221" />
     <meta name="geo.placename" content="Forw3b" />
     <meta name="geo.region" content="MM" />
     
-    <link rel="canonical" href="{{ Lang::get('url', array(), Helper::lang()) }}" />
-    <link rel="shortlink" href="{{ Lang::get('url', array(), Helper::lang()) }}" />
+    <link rel="canonical" href="http://{{ $_SERVER['HTTP_HOST'] }}<?php echo $_SERVER["REQUEST_URI"]; ?>" />
+    <link rel="shortlink" href="http://{{ $_SERVER['HTTP_HOST'] }}<?php echo $_SERVER["REQUEST_URI"]; ?>" />
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154962706-1"></script>
@@ -36,7 +36,7 @@
     </script>
 
     <!-- Scripts -->
-    <script src="{{ asset('public/js/app.js') }}" defer></script>
+    <script src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -46,24 +46,24 @@
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS File -->
-    <link href="{{asset('public/css/lib/bootstrap/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/lib/bootstrap/bootstrap.min.css')}}" rel="stylesheet">
   
     <!-- Libraries CSS Files -->
-    <link href="{{asset('public/css/lib/animate/animate.min.css')}}" rel="stylesheet">
-    <link href="{{asset('public/css/lib/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
-    <link href="{{asset('public/css/lib/ionicons/css/ionicons.min.css')}}" rel="stylesheet">
-    <link href="{{asset('public/css/lib/magnific-popup/magnific-popup.css')}}" rel="stylesheet">
+    <link href="{{asset('css/lib/animate/animate.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/lib/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/lib/ionicons/css/ionicons.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/lib/magnific-popup/magnific-popup.css')}}" rel="stylesheet">
     
     <!--Icon-->
-    <link rel="stylesheet" href="{{asset('public/css/lib/icon/css/all.css')}}">
+    <link rel="stylesheet" href="{{asset('css/lib/icon/css/all.css')}}">
   
     <!-- Main Stylesheet File -->
-    <link href="{{asset('public/css/app.css') }}" rel="stylesheet">
-    <link href="{{asset('public/css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{asset('css/style.css')}}" rel="stylesheet">
 
     <!-- Favicons -->
-    <link href="{{asset('public/img/favicon.png')}}" rel="icon">
-    <link href="{{asset('public/img/favicon.png')}}" rel="apple-touch-icon">
+    <link href="{{asset('img/favicon.png')}}" rel="icon">
+    <link href="{{asset('img/favicon.png')}}" rel="apple-touch-icon">
     
     <!--Google Adsense-->
     <script data-ad-client="ca-pub-3208312398055068" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

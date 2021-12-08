@@ -13,20 +13,20 @@
     <meta content="" name="description">
     
     <!-- Favicons -->
-    <link href="{{ asset('public/img/favicon.png') }}" rel="icon">
-    <link href="{{ asset('public/img/favicon.png') }}" rel="apple-touch-icon">
+    <link href="{{ asset('img/favicon.png') }}" rel="icon">
+    <link href="{{ asset('img/favicon.png') }}" rel="apple-touch-icon">
 
     <!-- Bootstrap -->
-    <link href="{{ asset('public/vendors/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('vendors/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
     
     <!-- Font Awesome -->
-    <link href="{{ asset('public/vendors/fontawesome/css/font-awesome.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('vendors/fontawesome/css/font-awesome.min.css') }}" rel="stylesheet">
 
     <!-- Custom Css -->
-    <link href="{{ asset('public/css/lib/build/css/custom.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/lib/build/css/custom.min.css') }}" rel="stylesheet">
     
     <!-- dropify -->
-    <link rel="stylesheet" href="{{ asset('public/vendors/dropify/dist/css/dropify.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendors/dropify/dist/css/dropify.min.css') }}">
     
   </head>
 @yield('content')

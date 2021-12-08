@@ -10,8 +10,8 @@
         </div>
         
         <!-- Custom Theme Scripts -->
-        <script src="{{asset('public/js/lib/build/custom.min.js')}}"></script>
-        <script src="{{asset('public/js/translate.js')}}"></script>
+        <script src="{{asset('js/lib/build/custom.min.js')}}"></script>
+        <script src="{{asset('js/translate.js')}}"></script>
 
     </body>
 </html>

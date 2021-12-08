@@ -64,7 +64,7 @@ breadcrumb Section
                                 <div class="col-md-6 col-lg-6 mb-5">
                                   <!-- Blog Card -->
                                     <article class="card shadow h-100">
-                                        <img class="card-img-top" src="{{ URL::to('/') }}/public/img/blog/post/{{ $post->image }}">
+                                        <img class="card-img-top" src="{{ URL::to('/') }}/img/blog/post/{{ $post->image }}">
                                         <div class="card-body p-3">
                                         <h5>{{$post->title}}</h5>
                                         <p>{!! Str::words($post->detail, 20,' . . .') !!}</p>
@@ -95,7 +95,7 @@ breadcrumb Section
                                 <div class="col-md-6 col-lg-6 mb-5">
                                   <!-- Blog Card -->
                                     <article class="card shadow h-100">
-                                        <img class="card-img-top" src="{{ URL::to('/') }}/public/img/blog/demo/{{ $demo->image }}">
+                                        <img class="card-img-top" src="{{ URL::to('/') }}/img/blog/demo/{{ $demo->image }}">
                                         <div class="card-body p-3">
                                         <h4>{{$demo->title}}</h4>
                                         <p>{!! Str::words($demo->note, 20,' . . .') !!}</p>
@@ -143,7 +143,7 @@ breadcrumb Section
                                 </div>
                                 
                                 <div class="col-5">
-                                    <img class="img-fluid" src="{{ URL::to('/') }}/public/img/blog/demo/{{ $last->image }}">
+                                    <img class="img-fluid" src="{{ URL::to('/') }}/img/blog/demo/{{ $last->image }}">
                                 </div>
                             </div>
                         </article>
@@ -166,7 +166,7 @@ breadcrumb Section
         <div class="container">
             <div class="row">
                 <div class="my-ads">
-                    <img src="{{ URL::to('/') }}/public/img/ads/forw3b_ads.png" alt="forw3b_ads">
+                    <img src="{{ URL::to('/') }}/img/ads/forw3b_ads.png" alt="forw3b_ads">
                 </div>
             </div>
         </div>

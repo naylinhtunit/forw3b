@@ -55,7 +55,7 @@
                                             <td>
                                                 <ul class="list-inline">
                                                     <li>
-                                                        <img src="{{ URL::to('/') }}/public/img/demo/web/{{ $web->image }}" class="avatar" />
+                                                        <img src="{{ URL::to('/') }}/img/demo/web/{{ $web->image }}" class="avatar" />
                                                     </li>
                                                 </ul>
                                             </td>

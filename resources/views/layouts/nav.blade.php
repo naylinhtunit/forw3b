@@ -3,7 +3,7 @@
         <div class="container">
 
             <div id="logo" class="pull-left">
-                <a href="{{ url('/') }}" class="scrollto"><img src="{{asset('public/img/logo/forw3b_logo.png')}}" /></a>
+                <a href="{{ url('/') }}" class="scrollto"><img src="{{asset('img/logo/forw3b_logo.png')}}" /></a>
             </div>
             <nav id="nav-menu-container">
                 <!-- Right Side Of Navbar -->

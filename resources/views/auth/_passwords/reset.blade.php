@@ -83,7 +83,7 @@
 
           <div class="col-lg-7 col-md-8">
             <div class="contact-about">
-              <h3><img class="main-logo" src="{{asset('public/img/logo/forw3b_fb_logo.png')}}" alt="" /></h3>
+              <h3><img class="main-logo" src="{{asset('img/logo/forw3b_fb_logo.png')}}" alt="" /></h3>
               
             <div class="info">
                 <div>

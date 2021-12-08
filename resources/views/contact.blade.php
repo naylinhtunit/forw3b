@@ -2,7 +2,7 @@
 
 @section('content')
 
-<link rel="stylesheet" type="text/css" href="{{ asset('public/filter-tel/css/intlTelInput.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('filter-tel/css/intlTelInput.css') }}">
 
 <style>
 	#error-msg {
@@ -121,7 +121,7 @@
             </div>
             <div class="col-lg-3 col-md-6 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                 <div class="member">
-                    <img src="{{asset('public/img/team/owner_one.png')}}" class="img-fluid" alt="">
+                    <img src="{{asset('img/team/owner_one.png')}}" class="img-fluid" alt="">
                     <div class="member-info">
                         <div class="member-info-content">
                             <h4>Mr.Nay</h4>
@@ -138,7 +138,7 @@
         
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                 <div class="member">
-                    <img src="{{asset('public/img/team/team_bg.png')}}" class="img-fluid" alt="">
+                    <img src="{{asset('img/team/team_bg.png')}}" class="img-fluid" alt="">
                     <div class="member-info">
                         <div class="member-info-content">
                             <h4>Coming Soon</h4>
@@ -161,7 +161,7 @@
     </section>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="{{ asset('public/filter-tel/js/intlTelInput.js') }}"></script>
+	<script src="{{ asset('filter-tel/js/intlTelInput.js') }}"></script>
 	
 	<script>
 		var input = document.querySelector("#phone"),
@@ -173,7 +173,7 @@
 
 		// Initialise plugin
 		var intl = window.intlTelInput(input, {
-		    utilsScript: "{{ asset('public/filter-tel/js/utils.js') }}"
+		    utilsScript: "{{ asset('filter-tel/js/utils.js') }}"
 		});
 
 		var reset = function() {

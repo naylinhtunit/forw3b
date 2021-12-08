@@ -16,7 +16,7 @@
     <div class="row wow fadeInUp">
         @foreach ($logos as $logo)
         <div class="col-md-2 client-logo">
-            <img src="{{ URL::to('/') }}/public/img/demo/logo/{{ $logo->image }}" alt="Some of our clients logos">
+            <img src="{{ URL::to('/') }}/img/demo/logo/{{ $logo->image }}" alt="Some of our clients logos">
         </div>
         @endforeach
     </div>
@@ -32,7 +32,7 @@
         <div class="container">
             <div class="row">
                 <div class="my-ads">
-                    <img src="{{ URL::to('/') }}/public/img/ads/forw3b_ads.png" alt="forw3b ads">
+                    <img src="{{ URL::to('/') }}/img/ads/forw3b_ads.png" alt="forw3b ads">
                 </div>
             </div>
         </div>

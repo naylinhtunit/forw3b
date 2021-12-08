@@ -13,21 +13,21 @@
     <meta content="" name="description">
     
     <!-- Favicons -->
-    <link href="{{asset('public/img/favicon.png')}}" rel="icon">
-    <link href="{{asset('public/img/favicon.png')}}" rel="apple-touch-icon">
+    <link href="{{asset('img/favicon.png')}}" rel="icon">
+    <link href="{{asset('img/favicon.png')}}" rel="apple-touch-icon">
     
-    <link href="{{asset('public/vendors/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{asset('public/css/lib/bootstrap3-editable/css/bootstrap-editable.css')}}" rel="stylesheet">
-    <script src="{{asset('public/vendors/jquery/dist/jquery.min.js')}}"></script>
-    <script src="{{asset('public/vendors/bootstrap/dist/js/bootstrap.min.js')}}"></script>
-    <!--<link href="{{asset('public/js/lib/bootstrap3-editable/js/bootstrap-editable.min.js')}}" rel="stylesheet">-->
+    <link href="{{asset('vendors/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/lib/bootstrap3-editable/css/bootstrap-editable.css')}}" rel="stylesheet">
+    <script src="{{asset('vendors/jquery/dist/jquery.min.js')}}"></script>
+    <script src="{{asset('vendors/bootstrap/dist/js/bootstrap.min.js')}}"></script>
+    <!--<link href="{{asset('js/lib/bootstrap3-editable/js/bootstrap-editable.min.js')}}" rel="stylesheet">-->
     <script src="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
     
     <!-- Font Awesome -->
-    <link href="{{asset('public/vendors/fontawesome/css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{asset('vendors/fontawesome/css/font-awesome.min.css')}}" rel="stylesheet">
 
     <!-- Custom Theme Style -->
-    <link href="{{asset('public/css/lib/build/css/custom.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/lib/build/css/custom.min.css')}}" rel="stylesheet">
     
   </head>
 @yield('content')

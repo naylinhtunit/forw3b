@@ -13,28 +13,28 @@
     <meta content="" name="description">
     
     <!-- Favicons -->
-    <link href="{{ asset('public/img/favicon.png') }}" rel="icon">
-    <link href="{{ asset('public/img/favicon.png') }}" rel="apple-touch-icon">
+    <link href="{{ asset('img/favicon.png') }}" rel="icon">
+    <link href="{{ asset('img/favicon.png') }}" rel="apple-touch-icon">
 
     <!-- Custom Css -->
-    <link href="{{ asset('public/css/lib/build/css/custom.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/lib/build/css/custom.min.css') }}" rel="stylesheet">
     
     <!-- Bootstrap -->
-    <!--<link href="{{ asset('public/client/bootstrap/dist/css/bootstrap.css') }}" rel="stylesheet">-->
-    <link href="{{ asset('public/vendors/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
+    <!--<link href="{{ asset('client/bootstrap/dist/css/bootstrap.css') }}" rel="stylesheet">-->
+    <link href="{{ asset('vendors/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
     
     <!-- Font Awesome -->
-    <link href="{{ asset('public/client/font-awesome/css/font-awesome.css') }}" rel="stylesheet">
+    <link href="{{ asset('client/font-awesome/css/font-awesome.css') }}" rel="stylesheet">
     
     <!-- Datatables -->
-    <link href="{{ asset('public/client/datatables.net-bs/css/dataTables.bootstrap.css') }}" rel="stylesheet">
-    <link href="{{ asset('public/client/datatables.net-buttons-bs/css/buttons.bootstrap.css') }}" rel="stylesheet">
-    <link href="{{ asset('public/client/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.css') }}" rel="stylesheet">
-    <link href="{{ asset('public/client/datatables.net-responsive-bs/css/responsive.bootstrap.css') }}" rel="stylesheet">
-    <link href="{{ asset('public/client/datatables.net-scroller-bs/css/scroller.bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ asset('client/datatables.net-bs/css/dataTables.bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ asset('client/datatables.net-buttons-bs/css/buttons.bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ asset('client/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ asset('client/datatables.net-responsive-bs/css/responsive.bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ asset('client/datatables.net-scroller-bs/css/scroller.bootstrap.css') }}" rel="stylesheet">
 
     <!-- Custom Css -->
-    <link href="{{ asset('public/client/css/client.css') }}" rel="stylesheet">
+    <link href="{{ asset('client/css/client.css') }}" rel="stylesheet">
     
   </head>
 @yield('content')

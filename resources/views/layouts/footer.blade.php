@@ -11,7 +11,7 @@
             <div class="container">
                 <div class="row">
                     <div class="contact-about">
-                      <h3><img class="main-logo" src="{{asset('public/img/logo/forw3b_logo.png')}}" alt="" /></h3>
+                      <h3><img class="main-logo" src="{{asset('img/logo/forw3b_logo.png')}}" alt="" /></h3>
                       
                     <div class="info">
                         <div>
@@ -90,21 +90,21 @@
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <!-- JavaScript Libraries -->
-  <script src="{{asset('public/js/lib/jquery/jquery.min.js')}}"></script>
-  <script src="{{asset('public/js/lib/jquery/jquery-migrate.min.js')}}"></script>
-  <script src="{{asset('public/js/lib/bootstrap/bootstrap.bundle.min.js')}}"></script>
-  <script src="{{asset('public/js/lib/easing/easing.min.js')}}"></script>
-  <script src="{{asset('public/js/lib/wow/wow.min.js')}}"></script>
-  <script src="{{asset('public/js/lib/waypoints/waypoints.min.js')}}"></script>
-  <script src="{{asset('public/js/lib/counterup/counterup.min.js')}}"></script>
-  <script src="{{asset('public/js/lib/superfish/hoverIntent.js')}}"></script>
-  <script src="{{asset('public/js/lib/superfish/superfish.min.js')}}"></script>
-  <script src="{{asset('public/js/lib/magnific-popup/magnific-popup.min.js')}}"></script>
+  <script src="{{asset('js/lib/jquery/jquery.min.js')}}"></script>
+  <script src="{{asset('js/lib/jquery/jquery-migrate.min.js')}}"></script>
+  <script src="{{asset('js/lib/bootstrap/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{asset('js/lib/easing/easing.min.js')}}"></script>
+  <script src="{{asset('js/lib/wow/wow.min.js')}}"></script>
+  <script src="{{asset('js/lib/waypoints/waypoints.min.js')}}"></script>
+  <script src="{{asset('js/lib/counterup/counterup.min.js')}}"></script>
+  <script src="{{asset('js/lib/superfish/hoverIntent.js')}}"></script>
+  <script src="{{asset('js/lib/superfish/superfish.min.js')}}"></script>
+  <script src="{{asset('js/lib/magnific-popup/magnific-popup.min.js')}}"></script>
   <!--Typed-->
-  <script src="{{asset('public/js/lib/typed/typed.js')}}"></script>
+  <script src="{{asset('js/lib/typed/typed.js')}}"></script>
 
   <!-- Template Main Javascript File -->
-  <script src="{{asset('public/js/main.js')}}"></script>
+  <script src="{{asset('js/main.js')}}"></script>
 
 </body>
 </html>

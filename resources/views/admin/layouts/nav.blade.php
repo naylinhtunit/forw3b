@@ -14,7 +14,7 @@
                         </li>
                          @else
                         <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                            <img src="/public/uploads/avatars/{{ Auth::user()->avatar }}" alt="">{{ Auth::user()->name }}
+                            <img src="/uploads/avatars/{{ Auth::user()->avatar }}" alt="">{{ Auth::user()->name }}
                             <span class=" fa fa-angle-down"></span>
                         </a>
                          @endguest

@@ -41,7 +41,7 @@
                     </div>
                     <div class="input-group">
                         <span class="input-group-addon"><i class="fa fa-cloud-download" aria-hidden="true"></i></span>
-                        <input name="image" type="file" id="input-file-now" data-default-file="{{ URL::to('/') . '/public/img/blog/post/' . $posts->image }}" data-allowed-file-extensions="png jpg jpeg svg" class="dropify" />    
+                        <input name="image" type="file" id="input-file-now" data-default-file="{{ URL::to('/') . '/img/blog/post/' . $posts->image }}" data-allowed-file-extensions="png jpg jpeg svg" class="dropify" />    
                     </div>
                     <button type="submit" class="btn btn-success">Save</button>
                 </form>

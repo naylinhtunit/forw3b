@@ -30,7 +30,7 @@
         <div class="container">
             <div class="row">
                 <div class="my-ads">
-                    <img src="{{ URL::to('/') }}/public/img/ads/forw3b_ads.png" alt="forw3b ads">
+                    <img src="{{ URL::to('/') }}/img/ads/forw3b_ads.png" alt="forw3b ads">
                 </div>
             </div>
         </div>

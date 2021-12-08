@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://forw3b.com/'),
+    'url' => env('APP_URL', 'http://forw3b.test/'),
 
     'asset_url' => env('ASSET_URL', null),
 
@@ -181,6 +181,7 @@ return [
         Intervention\Image\ImageServiceProvider::class,
 
         Anhskohbo\NoCaptcha\NoCaptchaServiceProvider::class,
+        Barryvdh\TranslationManager\ManagerServiceProvider::class,
     ],
 
     /*

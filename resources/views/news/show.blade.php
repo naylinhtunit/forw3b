@@ -2,7 +2,7 @@
 
 @section('head')
     <meta property="og:title"         content="{{$posts->title}}" />
-    <meta property="og:image"         content="{{ URL::to('/') }}/public/img/blog/post/{{ $posts->image }}" />
+    <meta property="og:image"         content="{{ URL::to('/') }}/img/blog/post/{{ $posts->image }}" />
 @endsection
 
 @section('content')
@@ -39,7 +39,7 @@ breadcrumb Section
           <div class="row">
             <div class="col-lg-12 col-md-12">
               <div class="card wow fadeInLeft">
-                <img class="card-img-top" src="{{ URL::to('/') }}/public/img/blog/post/{{ $posts->image }}" style="width:50%;" />
+                <img class="card-img-top" src="{{ URL::to('/') }}/img/blog/post/{{ $posts->image }}" style="width:50%;" />
                 <div class="card-body">
                     <h4 class="blog-ttl">{{$posts->title}}</h4>
                     {!! $posts->detail !!}

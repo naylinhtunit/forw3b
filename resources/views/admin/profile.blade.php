@@ -78,7 +78,7 @@
                     <!--    </div>-->
                     <!--    <div class="col-md-2">-->
                     <!--        <div class="text-center">-->
-                    <!--            <img class="img-circle profile_img" src="/public/uploads/avatars/{{ $user->avatar }}" />-->
+                    <!--            <img class="img-circle profile_img" src="/uploads/avatars/{{ $user->avatar }}" />-->
                     <!--        </div>-->
                     <!--    </div>-->
                     <!--    <div class="col-md-5">-->
@@ -93,7 +93,7 @@
                                 @csrf
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-cloud-download" aria-hidden="true"></i></span>
-                                    <input name="avatar" type="file" data-default-file="{{ URL::to('/') . '/public/uploads/avatars/' . $user->avatar }}" data-allowed-file-extensions="png jpg jpeg svg" aria-describedby="fileHelp" id="input-file-now avatarFile" class="dropify" />    
+                                    <input name="avatar" type="file" data-default-file="{{ URL::to('/') . '/uploads/avatars/' . $user->avatar }}" data-allowed-file-extensions="png jpg jpeg svg" aria-describedby="fileHelp" id="input-file-now avatarFile" class="dropify" />    
                                 </div>
                                 <div class="form-group">
                                     <input name="name" type="text" class="form-control" value="{{ $user->name }}">

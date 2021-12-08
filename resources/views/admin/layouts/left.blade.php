@@ -6,7 +6,7 @@
                 <div class="left_col scroll-view">
                     <div class="navbar nav_title" style="border: 0;">
                         <a href="{{ url('/') }}" class="site_title">
-                            <img src="{{asset('public/img/logo/forw3b_logo.png')}}" />
+                            <img src="{{asset('img/logo/forw3b_logo.png')}}" />
                             <span>CPanel</span>
                         </a>
                     </div>

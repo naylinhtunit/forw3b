@@ -11,7 +11,7 @@
         <h2><span class="typed"></span></h2>
         <p>{{ Lang::get('web_dev_ser', array(), Helper::lang()) }}</p>
         <div class="web-demo">
-            <!--<img src="{{asset('public/img/fb_banner.png')}}" alt="banner">-->
+            <!--<img src="{{asset('img/fb_banner.png')}}" alt="banner">-->
         </div>
         
         <div class="holder">
@@ -54,7 +54,7 @@
                         <p class="description">{{ Lang::get('web', array(), Helper::lang()) }}</p>
                     </div> 
                     <div class="col-lg-5 col-md-6">
-                        <img class="service-img" src="{{asset('public/img/services/laptop.png')}}">
+                        <img class="service-img" src="{{asset('img/services/laptop.png')}}">
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@
             <div class="box wow fadeInLeft">
                 <div class="row"> 
                     <div class="col-lg-5 col-md-6">
-                        <img class="service-img" src="{{asset('public/img/services/responsive.png')}}">
+                        <img class="service-img" src="{{asset('img/services/responsive.png')}}">
                     </div>
                     <div class="col-lg-7 col-md-6">
                         <h4 class="title">What is responsive web design?</h4>
@@ -328,7 +328,7 @@
             <div class="row">
                 @foreach($last_post as $post)
                 <div class="col-lg-4 col-md-12">
-                    <figure class="photo mb-0"><img src="{{ URL::to('/') }}/public/img/blog/post/{{ $post->image }}" alt="{{$post->title}}" />
+                    <figure class="photo mb-0"><img src="{{ URL::to('/') }}/img/blog/post/{{ $post->image }}" alt="{{$post->title}}" />
                         <figcaption>
                             <h2>{{$post->title}}</h2>
                         </figcaption>
@@ -348,7 +348,7 @@
         <div class="container">
             <div class="row">
                 <div class="my-ads">
-                    <img src="{{ URL::to('/') }}/public/img/ads/forw3b_ads.png" alt="forw3b ads">
+                    <img src="{{ URL::to('/') }}/img/ads/forw3b_ads.png" alt="forw3b ads">
                 </div>
             </div>
         </div>

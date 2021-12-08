@@ -22,7 +22,7 @@
                 <div class="gallery-item wow fadeInUp">
                     <span>{{$web->url}}</span>
                     <a href="{{ $web->url }}" target="_blank">
-                        <img src="{{ URL::to('/') }}/public/img/demo/web/{{ $web->image }}" alt="Some of our clients web portfolios">
+                        <img src="{{ URL::to('/') }}/img/demo/web/{{ $web->image }}" alt="Some of our clients web portfolios">
                     </a>
                 </div>
             </div>
@@ -43,7 +43,7 @@
         <div class="container">
             <div class="row">
                 <div class="my-ads">
-                    <img src="{{ URL::to('/') }}/public/img/ads/forw3b_ads.png" alt="forw3b ads">
+                    <img src="{{ URL::to('/') }}/img/ads/forw3b_ads.png" alt="forw3b ads">
                 </div>
             </div>
         </div>
